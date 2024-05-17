@@ -50,3 +50,17 @@ This repository contains code for a parking edge system designed to detect vehic
 - Customize the settings and configurations as per your specific requirements and environment.
 
 Feel free to reach out if you encounter any issues or need further assistance with the setup and usage of the parking edge system.
+
+** Parking System UI installation and setup **
+
+In the project directory, you can run:
+
+npm install
+npm start
+
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+1. Update Google maps apiKey in loader in ParkingLotMap component
+2. Update AWS Config in LiveFeed component
+
